@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
 
-html, body{
+html, body {
   min-height: 100vh;
-  overflow: auto;
 }
 
 body {
   margin: 0;
+  background: linear-gradient(315deg, #302d46, #757aa5);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(315deg, #302d46, #757aa5);
   font-family: 'Source Sans Pro', 'sans-serif';
 }
 
