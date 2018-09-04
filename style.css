@@ -14,7 +14,7 @@ body {
   font-family: 'Source Sans Pro', 'sans-serif';
 }
 
-main {
+#container {
   margin: 17px;
   max-width: 400px;
   border-radius: 5px;
@@ -22,14 +22,19 @@ main {
   background-color: white;
 }
 
-#photo {
+header {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+header img {
   display: block;
   width: 100%;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
 }
 
-section {
+main {
   padding: 34px 17px;
 }
 
